@@ -4,16 +4,16 @@ import './NavBar.css';
 const NavBar = () => {
   return (
     <div id="navBox" className="fadeIn">
-      <a href="*" className="navLink">
+      <a href="/about" className="navLink">
         about me
       </a>
-      <a href="*" className="navLink">
+      <a href="/" className="navLink">
         projects
       </a>
-      <a href="*" className="navLink">
+      <a href="/resume" className="navLink">
         resume
       </a>
-      <a href="*" className="navLink">
+      <a href="mailto: farahcadet@gmail.com" className="navLink">
         contact
       </a>
     </div>

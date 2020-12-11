@@ -1,0 +1,20 @@
+.aboutText {
+  color: white;
+  width: 60vw;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#mainAbout {
+  margin-top: 12vw;
+  font-size: 55px;
+}
+#moreAbout {
+  font-size: 35px;
+  margin: 30px auto;
+}
+#checkAbout {
+  font-size: 25px;
+}

@@ -7,7 +7,7 @@
 #intDesignProjBox {
   display: flex;
   justify-content: space-around;
-  margin: 0px 5vw;
+  margin: 0px 5vw 10vw 5vw;
 }
 #intDesignSRB {
   height: 300px;
