@@ -4,17 +4,17 @@ import './NavBar.css';
 const NavBar = () => {
   return (
     <div id="navBox" className="fadeIn">
-      <a href="/about" className="navLink">
-        about me
-      </a>
       <a href="/" className="navLink">
-        projects
+        Projects
       </a>
       <a href="/resume" className="navLink">
-        resume
+        Resume
+      </a>
+      <a href="/about" className="navLink">
+        About Me
       </a>
       <a href="mailto: farahcadet@gmail.com" className="navLink">
-        contact
+        Contact
       </a>
     </div>
   );

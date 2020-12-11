@@ -18,7 +18,7 @@ const WebDev = () => {
           <div id="webDevCurrent"></div>
           <div id="descBoxCurrent">
             {' '}
-            My current pet project - in progress, stay tuned for Mind-Link
+            My current in progress pet project - stay tuned for Mind-Link
           </div>
         </a>
         <a href="mailto: farahcadet@gmail.com">

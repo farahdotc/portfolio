@@ -5,12 +5,12 @@ a {
   color: white;
   font-weight: 400;
   font-size: 30px;
-  margin: 22vw 7vw 3vw 7vw;
+  margin: 15vw 7vw 3vw 7vw;
 }
 #webDevProjBox {
   display: flex;
   justify-content: space-around;
-  margin: 0px 5vw;
+  margin: 0px 5vw 10vw 5vw;
 }
 #webDevMidterm {
   height: 300px;
