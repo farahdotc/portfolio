@@ -1,0 +1,26 @@
+#intDesignIntro {
+  color: white;
+  font-weight: 400;
+  font-size: 30px;
+  margin: 7vw 7vw 3vw 7vw;
+}
+#intDesignProjBox {
+  display: flex;
+  justify-content: space-around;
+  margin: 0px 5vw;
+}
+#intDesignSRB {
+  height: 300px;
+  width: 300px;
+  border: 7px white solid;
+}
+#intDesignBNG {
+  height: 300px;
+  width: 300px;
+  border: 7px white solid;
+}
+#intDesignSRC {
+  height: 300px;
+  width: 300px;
+  border: 7px white solid;
+}

@@ -1,11 +1,21 @@
-/* JUST FOR DEMO PURPORSES, REPLACE WITH YOUR OWN CODE */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
 
-#demo {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+body {
+  background-image: linear-gradient(
+    to left bottom,
+    #f8aaec,
+    #f2a8ec,
+    #eca6ec,
+    #e5a4eb,
+    #dfa2eb,
+    #cbaaf6,
+    #b6b2fc,
+    #a1b9ff,
+    #73c9ff,
+    #34d9ff,
+    #00e5fc,
+    #26efe2
+  );
+  height: 400vh;
+  font-family: 'Montserrat', sans-serif;
 }
-
-/* END DEMO */

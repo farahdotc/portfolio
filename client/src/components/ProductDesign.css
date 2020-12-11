@@ -1,0 +1,46 @@
+#comingSoon {
+  color: white;
+  font-weight: 400;
+  font-size: 34px;
+  margin: 10vw 7vw 5vw 7vw;
+}
+
+#productDesignIntro {
+  color: white;
+  font-weight: 400;
+  font-size: 30px;
+  margin: 7vw 7vw 3vw 7vw;
+}
+#productDesignProjBox {
+  display: flex;
+  justify-content: space-around;
+  margin: 0px 5vw;
+}
+#productDesignTea {
+  height: 300px;
+  width: 300px;
+  border: 7px white solid;
+}
+
+#productDesignTea:hover:after {
+  height: 300px;
+  width: 300px;
+  background-color: aliceblue;
+  /* opacity: 100%; */
+  content: 'Tasked with creating a show piece';
+  color: grey;
+  /* width: 294px;
+  padding: 20px 10px 0px 10px; */
+  font-size: 18px;
+}
+
+#productDesignUniform {
+  height: 300px;
+  width: 300px;
+  border: 7px white solid;
+}
+#productDesignTable {
+  height: 300px;
+  width: 300px;
+  border: 7px white solid;
+}

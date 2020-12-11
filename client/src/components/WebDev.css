@@ -1,0 +1,60 @@
+a {
+  text-decoration: none;
+}
+#webDevIntro {
+  color: white;
+  font-weight: 400;
+  font-size: 30px;
+  margin: 22vw 7vw 3vw 7vw;
+}
+#webDevProjBox {
+  display: flex;
+  justify-content: space-around;
+  margin: 0px 5vw;
+}
+#webDevMidterm {
+  height: 300px;
+  width: 300px;
+  border: 7px solid aliceblue;
+  background-image: url('../assets/midterm.png');
+  background-size: cover;
+}
+#webDevCurrent {
+  height: 300px;
+  width: 300px;
+  border: 7px aliceblue solid;
+  background-image: url('../assets/mindlink.png');
+  background-size: cover;
+}
+#webDevFuture {
+  height: 300px;
+  width: 300px;
+  border: 7px aliceblue solid;
+}
+
+#descBoxAlbum {
+  color: grey;
+  background-color: aliceblue;
+  width: 294px;
+  height: 100px;
+  padding: 20px 10px 0px 10px;
+  font-size: 18px;
+}
+
+#descBoxCurrent {
+  color: grey;
+  background-color: aliceblue;
+  width: 294px;
+  height: 100px;
+  padding: 20px 10px 0px 10px;
+  font-size: 18px;
+}
+
+#descBoxFuture {
+  color: grey;
+  background-color: aliceblue;
+  width: 294px;
+  height: 100px;
+  padding: 20px 10px 0px 10px;
+  font-size: 18px;
+}

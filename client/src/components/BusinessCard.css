@@ -1,0 +1,23 @@
+#businessCardBox {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  align-items: right;
+  justify-content: flex-end;
+}
+
+#name {
+  color: white;
+  text-align: right;
+  font-weight: 500;
+  font-size: 105px;
+  margin: 0px 7vw 15px 0px;
+}
+
+.title {
+  color: white;
+  text-align: right;
+  font-weight: 400;
+  font-size: 30px;
+  margin: 0px 7vw;
+}

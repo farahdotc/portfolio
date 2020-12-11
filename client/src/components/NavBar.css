@@ -1,0 +1,31 @@
+#navBox {
+  display: flex;
+  justify-content: space-around;
+  width: 40vw;
+  height: auto;
+  /* float: right; */
+  margin-left: 680px;
+  margin-top: 5px;
+}
+
+.navLink {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.fadeIn {
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
