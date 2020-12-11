@@ -14,7 +14,7 @@ const WebDev = () => {
             favorite artists. A team collaboration.
           </div>
         </a>
-        <a href="*">
+        <a href="/">
           <div id="webDevCurrent"></div>
           <div id="descBoxCurrent">
             {' '}
@@ -26,7 +26,7 @@ const WebDev = () => {
           <div id="descBoxFuture">
             {' '}
             This space is reserved for my next pet project - what will it be?
-            Message me with suggestions
+            Click here to message me with suggestions
           </div>
         </a>
       </div>
