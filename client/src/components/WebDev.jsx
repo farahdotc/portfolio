@@ -18,7 +18,8 @@ const WebDev = () => {
           <div id="webDevCurrent"></div>
           <div id="descBoxCurrent">
             {' '}
-            My current in progress pet project - stay tuned for Mind-Link
+            Mind-Link - My current project. With an amazing design from the
+            UX/UI team, implementing a pixel perfect site in progress.
           </div>
         </a>
         <a href="mailto: farahcadet@gmail.com">
@@ -26,7 +27,7 @@ const WebDev = () => {
           <div id="descBoxFuture">
             {' '}
             This space is reserved for my next pet project - what will it be?
-            Click here to message me with suggestions
+            Message me with ideas and maybe we can collaborate!
           </div>
         </a>
       </div>

@@ -16,45 +16,48 @@ a {
   height: 300px;
   width: 300px;
   border: 7px solid aliceblue;
-  background-image: url('../assets/midterm.png');
+  background-image: url('../assets/headphones.png'),
+    url('../assets/headphonesbackground.png');
   background-size: cover;
 }
 #webDevCurrent {
   height: 300px;
   width: 300px;
   border: 7px aliceblue solid;
-  background-image: url('../assets/mindlink.png');
+  background: url('../assets/mindlink.png');
   background-size: cover;
 }
 #webDevFuture {
   height: 300px;
   width: 300px;
   border: 7px aliceblue solid;
+  background: url('../assets/brainstorm1.jpg');
+  background-size: cover;
 }
 
 #descBoxAlbum {
   color: grey;
   background-color: aliceblue;
-  width: 294px;
+  width: 284px;
   height: 100px;
-  padding: 20px 10px 0px 10px;
+  padding: 20px 15px 0px 15px;
   font-size: 18px;
 }
 
 #descBoxCurrent {
   color: grey;
   background-color: aliceblue;
-  width: 294px;
+  width: 284px;
   height: 100px;
-  padding: 20px 10px 0px 10px;
+  padding: 20px 15px 0px 15px;
   font-size: 18px;
 }
 
 #descBoxFuture {
   color: grey;
   background-color: aliceblue;
-  width: 294px;
+  width: 284px;
   height: 100px;
-  padding: 20px 10px 0px 10px;
+  padding: 20px 15px 0px 15px;
   font-size: 18px;
 }

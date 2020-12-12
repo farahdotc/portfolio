@@ -5,7 +5,11 @@ const Albumology = () => {
   return (
     <div>
       <div className="upperBox">
-        <a href="https://albumology.herokuapp.com/" target="_blank">
+        <a
+          href="https://albumology.herokuapp.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <div className="imgBox"></div>
         </a>
         <div className="sideBox">
