@@ -1,7 +1,7 @@
 #navBox {
   display: flex;
   justify-content: space-around;
-  width: 60vw;
+  width: 100vw;
   height: auto;
   /* float: right; */
   margin-right: 7vw;

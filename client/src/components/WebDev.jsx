@@ -6,7 +6,7 @@ const WebDev = () => {
     <div>
       <div id="webDevIntro">web dev projects</div>
       <div id="webDevProjBox">
-        <a href="https://albumology.herokuapp.com/">
+        <a href="/albumology">
           <div id="webDevMidterm"></div>
           <div id="descBoxAlbum">
             {' '}
