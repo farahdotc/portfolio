@@ -4,7 +4,7 @@ import './NavBar.css';
 const NavBar = () => {
   return (
     <div id="navBox" className="fadeIn">
-      <a href="/" className="navLink">
+      <a href="/projects" className="navLink">
         Projects
       </a>
       <a href="/resume" className="navLink">

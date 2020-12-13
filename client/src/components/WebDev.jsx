@@ -6,7 +6,7 @@ const WebDev = () => {
     <div>
       <div id="webDevIntro">web dev projects</div>
       <div id="webDevProjBox">
-        <a href="/albumology">
+        <a href="/projects#album">
           <div id="webDevMidterm"></div>
           <div id="descBoxAlbum">
             {' '}
@@ -14,7 +14,7 @@ const WebDev = () => {
             favorite artists. A team collaboration.
           </div>
         </a>
-        <a href="/">
+        <a href="/projects#mind">
           <div id="webDevCurrent"></div>
           <div id="descBoxCurrent">
             {' '}

@@ -4,7 +4,7 @@ import NavBar from './components/NavBar';
 import Home from './Pages/Home';
 import Resume from './components/Resume';
 import About from './Pages/AboutP';
-import AlbumologyPage from './Pages/AlbumologyPage';
+import Projects from './Pages/Projects';
 
 import './App.css';
 
@@ -17,7 +17,7 @@ const App = () => {
           <Route exact path="/" component={Home} />
           <Route exact path="/resume" component={Resume} />
           <Route exact path="/about" component={About} />
-          <Route exact path="/albumology" component={AlbumologyPage} />
+          <Route exact path="/projects" component={Projects} />
         </div>
       </Switch>
     </Router>

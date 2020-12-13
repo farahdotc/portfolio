@@ -1,0 +1,53 @@
+body {
+  width: 90;
+  height: 120;
+}
+.projectTitle {
+  color: aliceblue;
+  font-weight: 400;
+  font-size: 3rem;
+  margin: 0px 7vw;
+}
+.projectContainer {
+  width: 85vw;
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  grid-gap: 20px;
+  margin: 5vh auto 15vh auto;
+}
+
+.imgBox {
+  grid-column: 1 / 10;
+  grid-row: 1 / 9;
+  /* border: 1px solid white; */
+}
+
+.imgScale {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.gifBox {
+  grid-column: 10 / 13;
+  grid-row: 1 / 3;
+  border: 1px solid white;
+}
+
+.blurbBox {
+  grid-column: 10 / 13;
+  grid-row: 3 / 9;
+  /* border: 1px solid white; */
+  padding: 1.5vw;
+  line-height: 1.4;
+  /* text-align: justify; */
+}
+
+.roleBox {
+  grid-column: 1 / 13;
+  grid-row: 9 / 11;
+  border: 1px solid white;
+  padding: 1.5vw;
+}

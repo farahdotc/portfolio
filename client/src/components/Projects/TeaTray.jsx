@@ -1,11 +1,11 @@
 import React from 'react';
 import './Projects.css';
 
-const Albumology = () => {
+const TeaTray = () => {
   return (
-    <div style={{ marginTop: '15vh' }}>
-      <h1 className="projectTitle" id="album">
-        Albumology
+    <div>
+      <h1 className="projectTitle" id="tea">
+        High Tea on the high seas
       </h1>
       <div className="projectContainer">
         <a
@@ -17,8 +17,8 @@ const Albumology = () => {
           <div className="imgBox">
             <img
               className="imgScale"
-              src={require('../../assets/midterm.png')}
-              alt="Albumology"
+              src={require('../Projects/teatray.png')}
+              alt="MindLink"
             />
           </div>
         </a>
@@ -26,16 +26,8 @@ const Albumology = () => {
         <div className="blurbBox">
           {' '}
           <p>Project Brief</p>
-          <p>
-            Teamed up into a group of four, my peers and I were charged with
-            creating an app that solved a unique problem using REACT, API's,
-            CSS, Express and JavaScript.
-          </p>
-          <p>
-            From that we bring you ALBUMOLOGY - A stunning visual display of all
-            the albums by your favorite artists. Take a journey through your
-            life narrarated by the music you've loved!
-          </p>
+          {/* <p>Coming soon</p>
+          <p>Coming soon</p> */}
         </div>
 
         <div className="roleBox">
@@ -51,4 +43,4 @@ const Albumology = () => {
   );
 };
 
-export default Albumology;
+export default TeaTray;
