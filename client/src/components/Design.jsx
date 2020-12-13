@@ -5,7 +5,7 @@ const Design = () => {
   return (
     <div>
       {/* <div id="comingSoon">coming soon...</div> */}
-      <div id="productDesignIntro">design projects (more coming soon)</div>
+      <div id="productDesignIntro">design projects</div>
       <div id="productDesignProjBox">
         <a href="/projects#tea">
           <div id="productDesignTea"></div>
@@ -15,8 +15,14 @@ const Design = () => {
             aboard an all-inclusive ship?
           </div>
         </a>
-        <div id="productDesignUniform"></div>
-        <div id="productDesignTable"></div>
+        <a href="/projects#uniform">
+          <div id="productDesignUniform"></div>
+          <div id="descBoxUniform"> Ship Shape -</div>
+        </a>
+        <a href="/projects#table">
+          <div id="productDesignTable"></div>
+          <div id="descBoxTable"> coming soon</div>
+        </a>
       </div>
     </div>
   );

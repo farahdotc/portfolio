@@ -1,18 +1,18 @@
 import React from 'react';
 import './Projects.css';
 
-const TeaTray = () => {
+const Uniform = () => {
   return (
     <div>
-      <h1 className="projectTitle" id="tea">
-        High Tea on the high seas
+      <h1 className="projectTitle" id="uniform">
+        Ship Chic
       </h1>
       <div className="projectContainer">
         <div className="imgBox">
           <img
             className="imgScale"
-            src={require('../Projects/teatray.png')}
-            alt="MindLink"
+            src={require('../Projects/uniform.png')}
+            alt="Ship"
           />
         </div>
         <div className="gifBox"></div>
@@ -36,4 +36,4 @@ const TeaTray = () => {
   );
 };
 
-export default TeaTray;
+export default Uniform;

@@ -19,23 +19,44 @@
 #productDesignTea {
   height: 300px;
   width: 300px;
-  border: 7px white solid;
+  border: 7px aliceblue solid;
   background: url('../assets/sip.png');
   background-size: cover;
 }
 
-/* #productDesignUniform {
+#productDesignUniform {
   height: 300px;
   width: 300px;
-  border: 7px white solid;
+  border: 7px aliceblue solid;
+  background: url('../assets/uni.png');
+  background-size: cover;
 }
 #productDesignTable {
   height: 300px;
   width: 300px;
-  border: 7px white solid;
-} */
+  border: 7px aliceblue solid;
+  background: lavender;
+  /* url('../assets/uni.png'); */
+  background-size: cover;
+}
 
 #descBoxTea {
+  color: grey;
+  background-color: aliceblue;
+  width: 284px;
+  height: 100px;
+  padding: 20px 15px 0px 15px;
+  font-size: 18px;
+}
+#descBoxUniform {
+  color: grey;
+  background-color: aliceblue;
+  width: 284px;
+  height: 100px;
+  padding: 20px 15px 0px 15px;
+  font-size: 18px;
+}
+#descBoxTable {
   color: grey;
   background-color: aliceblue;
   width: 284px;
