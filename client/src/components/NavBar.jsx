@@ -4,6 +4,14 @@ import './NavBar.css';
 const NavBar = () => {
   return (
     <div id="navBox" className="fadeIn">
+      <a href="/" className="navLink">
+        Home
+        {/* <img
+          src={require('../assets/headphonesbackground.png')}
+          alt="logo"
+          style={{ width: '29px', height: '29px' }}
+        /> */}
+      </a>
       <a href="/projects" className="navLink">
         Projects
       </a>

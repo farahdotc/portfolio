@@ -22,16 +22,27 @@ const Mindlink = () => {
             />
           </div>
         </a>
-        <div className="gifBox"></div>
+        <div className="gifBox">
+          <img
+            className="imgScale"
+            src={require('../Projects/mindlog.png')}
+            alt="Login"
+          />
+        </div>
         <div className="blurbBox">
           {' '}
           <p>Project Brief</p>
-          {/* <p>
-
+          <p>
+            {' '}
+            Being a musician often times is a calling but that doesn't mean that
+            it's easy. That's because creating music is no small task,
+            especially when you understand how many pieces are in the puzzle.
           </p>
           <p>
- 
-          </p> */}
+            Mind-Link, brainchild of an amazing UX/UI team, solves the problems
+            by connecting missing pieces of the puzzle. Post projects open for
+            collaboration and get ready to get jammin'.
+          </p>
         </div>
 
         <div className="roleBox">

@@ -15,7 +15,13 @@ const TeaTray = () => {
             alt="MindLink"
           />
         </div>
-        <div className="gifBox"></div>
+        <div className="gifBox">
+          <img
+            className="imgScale"
+            src={require('../Projects/sip2.png')}
+            alt="sip"
+          />
+        </div>
         <div className="blurbBox">
           {' '}
           <p>Project Brief</p>

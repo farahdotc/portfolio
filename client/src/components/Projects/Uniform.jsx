@@ -15,7 +15,13 @@ const Uniform = () => {
             alt="Ship"
           />
         </div>
-        <div className="gifBox"></div>
+        <div className="gifBox">
+          <img
+            className="imgScale"
+            src={require('../Projects/rbuni.png')}
+            alt="RBranson"
+          />
+        </div>
         <div className="blurbBox">
           {' '}
           <p>Project Brief</p>

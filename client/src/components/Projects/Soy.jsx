@@ -15,12 +15,18 @@ const Soy = () => {
             alt="Soy"
           />
         </div>
-        <div className="gifBox"></div>
+        <div className="gifBox">
+          <img
+            className="imgScale"
+            src={require('../Projects/soyext.png')}
+            alt="SoyExt"
+          />
+        </div>
         <div className="blurbBox">
           {' '}
           <p>Project Brief</p>
-          {/* <p>Coming soon</p>
-          <p>Coming soon</p> */}
+          <p>When you think of sushi lovers do you think of kids?</p>
+          <p></p>
         </div>
 
         <div className="roleBox">

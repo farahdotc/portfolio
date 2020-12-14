@@ -5,6 +5,7 @@ import Home from './Pages/Home';
 import Resume from './components/Resume';
 import About from './Pages/AboutP';
 import Projects from './Pages/Projects';
+import Footer from './components/Footer';
 
 import './App.css';
 
@@ -18,6 +19,7 @@ const App = () => {
           <Route exact path="/resume" component={Resume} />
           <Route exact path="/about" component={About} />
           <Route exact path="/projects" component={Projects} />
+          <Footer />
         </div>
       </Switch>
     </Router>

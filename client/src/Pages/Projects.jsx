@@ -11,8 +11,8 @@ const AlbumologyPage = () => {
       <Albumology />
       <Mindlink />
       <TeaTray />
-      <Soy />
       <Uniform />
+      <Soy />
     </div>
   );
 };

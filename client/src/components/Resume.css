@@ -1,10 +1,10 @@
 #resume {
   background-image: url('../assets/Resume.png');
   background-size: cover;
-  width: 60vw;
-  height: 937.5px;
+  width: 940px;
+  height: 1180.5px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 37vh;
+  margin-top: 27vh;
   margin-bottom: 7vh;
 }

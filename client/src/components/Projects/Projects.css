@@ -2,6 +2,14 @@ body {
   width: 90;
   height: 120;
 }
+
+.pageTitle {
+  color: aliceblue;
+  text-align: right;
+  font-weight: 500;
+  font-size: 94px;
+  margin: 30vh 7vw 15vh 0px;
+}
 .projectTitle {
   color: aliceblue;
   font-weight: 400;
@@ -33,21 +41,20 @@ body {
 .gifBox {
   grid-column: 10 / 13;
   grid-row: 1 / 3;
-  border: 1px solid white;
+  /* border: 1px solid white; */
 }
 
 .blurbBox {
   grid-column: 10 / 13;
   grid-row: 3 / 9;
-  /* border: 1px solid white; */
   padding: 1.5vw;
   line-height: 1.4;
-  /* text-align: justify; */
+  color: rgb(66, 63, 63);
 }
 
-.roleBox {
+/* .roleBox {
   grid-column: 1 / 13;
   grid-row: 9 / 11;
   border: 1px solid white;
   padding: 1.5vw;
-}
+} */
