@@ -5,7 +5,7 @@ const TeaTray = () => {
   return (
     <div>
       <h1 className="projectTitle" id="tea">
-        High Tea on the high seas
+        High tea on the high seas
       </h1>
       <div className="projectContainer">
         <div className="imgBox">
@@ -25,8 +25,18 @@ const TeaTray = () => {
         <div className="blurbBox">
           {' '}
           <p>Project Brief</p>
-          {/* <p>Coming soon</p>
-          <p>Coming soon</p> */}
+          <p>
+            How can tea time be elevated into an experience? As the design
+            manager for all tabletop items this fell into my remit to solve. The
+            answer not surprisingly, is very simply with an amazing team that
+            works with other amazing teams.
+          </p>
+          <p>
+            This project took collaboration across the business and externally
+            all while on an urgent timeline. The resulting product is a sexy
+            instagramable moment created for the customer and satifies the
+            business' goals.
+          </p>
         </div>
 
         <div className="roleBox">

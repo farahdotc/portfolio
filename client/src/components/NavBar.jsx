@@ -6,11 +6,6 @@ const NavBar = () => {
     <div id="navBox" className="fadeIn">
       <a href="/" className="navLink">
         Home
-        {/* <img
-          src={require('../assets/headphonesbackground.png')}
-          alt="logo"
-          style={{ width: '29px', height: '29px' }}
-        /> */}
       </a>
       <a href="/projects" className="navLink">
         Projects
@@ -22,7 +17,11 @@ const NavBar = () => {
         About Me
       </a>
       <a href="mailto: farahcadet@gmail.com" className="navLink">
-        Contact
+        <img
+          src={require('../assets/dm.png')}
+          alt="logo"
+          style={{ width: '25px', height: '17px' }}
+        />
       </a>
     </div>
   );
