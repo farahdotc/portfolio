@@ -28,3 +28,7 @@ body {
   );
   font-family: 'Montserrat', sans-serif;
 }
+
+/* @media only screen and (max-width: 768px) {
+  background-color: blue;
+} */

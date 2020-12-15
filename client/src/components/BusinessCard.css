@@ -1,7 +1,7 @@
 #businessCardBox {
   display: flex;
   flex-direction: column;
-  height: 80vh;
+  height: 70vh;
   align-items: right;
   justify-content: flex-end;
 }
@@ -20,4 +20,12 @@
   font-weight: 400;
   font-size: 30px;
   margin: 0px 7vw;
+}
+
+.post {
+  color: aliceblue;
+  text-align: right;
+  font-weight: 400;
+  font-size: 20px;
+  margin: 13vh 7vw 0px 7vw;
 }
