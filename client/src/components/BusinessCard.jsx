@@ -10,11 +10,11 @@ const BusinessCard = () => {
       setApiData(result.data);
     };
     fetchData();
+    const interval = setInterval(() => fetchData(), 7000);
+    return () => {
+      clearInterval(interval);
+    };
   }, []);
-
-  const randomQuote = apiData[Math.floor(Math.random() * apiData.length)];
-  console.log(randomQuote);
-  console.log(Object.values(apiData));
 
   return (
     <div id="businessCardBox">
@@ -22,32 +22,11 @@ const BusinessCard = () => {
       <div className="title">web developer</div>
       <div className="title">design professional</div>
       <div className="post">
-        <div>{apiData.content}</div>
-        <div>-{apiData.author}</div>
+        <div className="fadeIn">{apiData.content}</div>
+        <div className="fadeIn">-{apiData.author}</div>
       </div>
     </div>
   );
 };
 
 export default BusinessCard;
-
-// {
-//    {apiData.map((quote) => {
-//         return (
-
-//    key={apiData.quote}
-//             quote={apiData.quote}
-//             author={apiData.author}
-
-//    })}
-// }
-// {randomQuote.text}
-// {/* {apiData[Math.floor(Math.random() * apiData.length)]} */}
-// {apiData.text + '    ' + '-' + apiData.author}
-
-// {Object.keys(randomQuote.object).map((key, i) => (
-//   <p key={i}>
-//     <span>Key Name: {key}</span>
-//     <span>Value: {randomQuote.object[key]}</span>
-//   </p>
-// ))}
